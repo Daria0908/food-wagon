@@ -1,0 +1,75 @@
+header {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#top_nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
+    justify-items: center;
+}
+
+.place, .Search, .Login {
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo {
+    align-self: center;
+}
+
+.header {
+    background-image: url('/assets/images/Rectangle 20.png');
+}
+
+.flash_deals {
+    display: flex;
+    justify-content: center;
+    padding: 10vw;
+}
+
+.Our_Top_Cities {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding-left: 10vw;
+}
+
+.Our_Top_Cities .list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: flex-start;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.order {
+    background-image: url('/assets/images/bg2.png');
+    display: grid;
+    justify-items: center;
+}
+
+.order h2 {
+    font-family: Source Sans Pro;
+font-size: 57px;
+font-weight: 900;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+width: 50%;
+
+}
+
+.button_order {
+    background-color: #F17228;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 100%;
+}
